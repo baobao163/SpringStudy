@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springStudy03_javaConfig" />
+        <module name="springStudy06_aop" />
+        <module name="springStudy02_autoBean" />
+        <module name="springStudy07_baseMybatis" />
+        <module name="springStudy01_helloWorld" />
+        <module name="springStudy05_dynamicProxyMethod" />
+        <module name="springStudy08_springMybatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springStudy07_withMyBatis" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
